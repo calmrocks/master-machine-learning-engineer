@@ -25,7 +25,6 @@ Each learning path is carefully curated for specific roles:
 - **[ML Engineer](learning-paths/ai-developer.md)**: Focuses on building and deploying ML systems at scale
 - **[Product Manager](learning-paths/product-manager.md)**: Emphasizes AI product development, evaluation, and lifecycle management
 - **[Data Scientist](learning-paths/data-scientist.md)**: Concentrates on data analysis, model development, and statistical inference
-## 📚 Module Categories
 
 ## 📚 Module Categories
 
