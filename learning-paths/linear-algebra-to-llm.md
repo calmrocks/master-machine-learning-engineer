@@ -2,7 +2,7 @@
 
 This learning path takes you from fundamental mathematical concepts to understanding and implementing state-of-the-art Large Language Models.
 
-![](./resources/llm-evolution-path.png)
+![](images/llm-evolution-path.png)
 
 ## Phase 1: Mathematical Foundations (4-6 weeks)
 - **Linear Algebra Essentials**
