@@ -1,0 +1,50 @@
+@startuml LLM Compact Evolution
+skinparam backgroundColor white
+skinparam ArrowColor DarkBlue
+skinparam nodeFontSize 12
+skinparam rectangleBorderRadius 15
+skinparam roundcorner 20
+
+rectangle "Statistical" as Stat #LightBlue {
+  card "Linear/Logistic\nRegression" as Reg
+  card "N-gram Models" as NGram
+}
+
+rectangle "Neural Networks" as NN #LightGreen {
+  card "RNN/LSTM" as RNN
+  card "Seq2Seq/Attention" as Seq2Seq
+}
+
+rectangle "Transformer" as Trans #LightCoral {
+  card "Transformer" as Transformer
+  card "Modern LLMs\n(BERT/GPT/T5)" as LLMs
+}
+
+rectangle "Embeddings" as Emb #LightYellow {
+  card "Statistical\n(One-Hot, BoW)" as StatEmb
+  card "Neural\n(Word2Vec, GloVe)" as NeuralEmb
+  card "Subword\n(BPE, WordPiece)" as SubwordEmb
+}
+
+' 连线
+Reg -right-> NGram
+NGram -right-> RNN
+RNN -right-> Seq2Seq
+Seq2Seq -right-> Transformer
+Transformer -right-> LLMs
+
+StatEmb -right-> NeuralEmb
+NeuralEmb -right-> SubwordEmb
+SubwordEmb -up-> Transformer
+
+note bottom of Reg : 1950s-1990s
+note bottom of Seq2Seq : 2014-2017
+note bottom of Transformer : 2017+
+
+legend right
+  |= Era |= Years |
+  | Statistical | 1950-2000 |
+  | Neural Networks | 2000-2017 |
+  | Transformers | 2017-Present |
+end legend
+@enduml

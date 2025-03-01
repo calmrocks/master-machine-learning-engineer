@@ -25,6 +25,9 @@ Each learning path is carefully curated for specific roles:
 - **[ML Engineer](learning-paths/ai-developer.md)**: Focuses on building and deploying ML systems at scale
 - **[Product Manager](learning-paths/product-manager.md)**: Emphasizes AI product development, evaluation, and lifecycle management
 - **[Data Scientist](learning-paths/data-scientist.md)**: Concentrates on data analysis, model development, and statistical inference
+- **[Linear Algebra to LLM](learning-paths/linear-algebra-to-llm.md)**: Provides a mathematical foundation journey from basic linear algebra to understanding and building large language models
+- **[AWS Certification for AI/ML](learning-paths/aws-certification-ml.md)**: Guides professionals through AWS certifications and services specifically tailored for machine learning deployment and operations in the cloud
+
 
 ## 📚 Module Categories
 
